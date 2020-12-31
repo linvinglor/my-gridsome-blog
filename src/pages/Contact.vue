@@ -90,7 +90,7 @@ export default {
             try {
                 await axios({
                     method: 'POST',
-                    url: 'http://106.75.34.58:1377/contacts',
+                    url: 'http://106.75.34.58:1337/contacts',
                     data: this.form
                 })
                 window.alert('发送成功')
